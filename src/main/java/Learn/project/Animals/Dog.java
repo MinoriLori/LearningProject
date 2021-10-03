@@ -1,7 +1,7 @@
 package Learn.project.Animals;
 
 public class Dog extends Animal{
-    int fangLength;
+    private int fangLength;
     private static int dogCount;
     public Dog(String name, String color, int age, int fangsLenght){
         super(name, color, age);

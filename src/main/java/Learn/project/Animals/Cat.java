@@ -1,7 +1,7 @@
 package Learn.project.Animals;
 
 public class Cat extends Animal {
-    int clawLength;
+    private int clawLength;
     static int catCount;
     public Cat(String name, int age, String color, int clawLength){
         super(name, color,age);
@@ -31,7 +31,7 @@ public class Cat extends Animal {
         if (let>200){
             System.out.println("Кот не справится с данным маршрутом");
         }else {
-            System.out.println("Кот проюежал\t" + let );
+            System.out.println("Кот пробежал\t" + let );
         }
     }
     @Override
